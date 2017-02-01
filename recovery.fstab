@@ -8,5 +8,6 @@
 /efs2            emmc              /dev/block/bootdevice/by-name/modemst2   flags=backup=1;subpartitionof=/efs1
 /securefs        ext4              /dev/block/bootdevice/by-name/securefs   flags=backup=1
 /BBSYS           ext4              /dev/block/bootdevice/by-name/box        flags=backup=1
+/misc            emmc              /dev/block/bootdevice/by-name/misc
 
 /usb-otg         vfat              /dev/block/sda1      /dev/block/sda      flags=removable;storage;display=USB-OTG
